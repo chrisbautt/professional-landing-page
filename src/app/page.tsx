@@ -19,7 +19,7 @@ export default function Home() {
       <section className="bg-primary py-[50px] px-[50px] md:px-[100px]" id="services">
         <div className="max-w-[400px] mx-auto py-[50px] md:max-w-full">
           <div className="text-center mx-auto">
-            <h2 className="text-4xl">Service"s</h2>
+            <h2 className="text-4xl">Services</h2>
             <p className="">Humaid propose des solutions efficces et personnalisées:</p>
           </div>
           <div className="flex flex-col justify-start items-start py-[50px] gap-[50px] md:flex-row">
@@ -51,14 +51,14 @@ export default function Home() {
                   </div>
                   <div>
                     <p className="text-2xl lg:text-3xl"><b>5</b></p>
-                    <p className="lg:text-lg">Ans d"experience</p>
+                    <p className="lg:text-lg">Ans dexperience</p>
                   </div>
                 </div>
               </div>
             </div>
             <div className="flex flex-col justify-start items-start gap-[15px] w-full md:px-[50px] lg:px-[100px]">
               <p className="text-3xl">Je suis Ariadna, consultante en marketing digital de projets sociaux et humanitaires</p>
-              <p>Depuis 5 ans, je me spécialise dans les stratégies de contenu et de marketing pour aider les ONG internationales à atteindre leurs objectifs de visibilité et d"impact.</p>
+              <p>Depuis 5 ans, je me spécialise dans les stratégies de contenu et de marketing pour aider les ONG internationales à atteindre leurs objectifs de visibilité et dimpact.</p>
               <a href="#contact" className="py-3 px-9 bg-black text-white border-[1px] border-black rounded-full my-[15px] hover:bg-white hover:text-black">Réserve audit gratuit</a>
             </div>
           </div>
@@ -67,10 +67,10 @@ export default function Home() {
       <section className="bg-secondary text-primary py-[50px] px-[50px] md:px-[100px]" id="a propos">
         <div className="max-w-[400px] mx-auto md:max-w-full flex flex-col justify-center items-start gap-[30px] md:flex-row">
           <div className="flex flex-col justify-center items-start gap-[30px] w-full">
-            <h2 className="text-4xl text-center">A propos d"Humaid</h2>
-            <p>On a soutenu plus de 20 projets de coopération et d"aide humanitaire liés à la santé, à l"éducation, à l"accès à l"eau, à la migration et à la protection de l"enfance.</p>
+            <h2 className="text-4xl text-center">A propos dHumaid</h2>
+            <p>On a soutenu plus de 20 projets de coopération et daide humanitaire liés à la santé, à léducation, à laccès à leau, à la migration et à la protection de lenfance.</p>
             <p>Et avec une notable expérience en missions humanitaires dans des pays tels que le Sénégal, le Maroc, le Togo et le Bénin.</p>
-            <p className="hidden md:block">Notre objectif ? Devenir une référence en communication pour les ONG internationales et d"automatiser de petites équipes pour assurer un marketing efficace et durable.</p>
+            <p className="hidden md:block">Notre objectif Devenir une référence en communication pour les ONG internationales et dautomatiser de petites équipes pour assurer un marketing efficace et durable.</p>
           </div>
           <div className="w-full max-w-[400px] flex justify-center items-center md:max-w-[80%]">
             <Image
@@ -81,7 +81,7 @@ export default function Home() {
               sizes="fill"
             />
           </div>
-          <p className="block md:hidden">Notre objectif ? Devenir une référence en communication pour les ONG internationales et d"automatiser de petites équipes pour assurer un marketing efficace et durable.</p>
+          <p className="block md:hidden">Notre objectif Devenir une référence en communication pour les ONG internationales et dautomatiser de petites équipes pour assurer un marketing efficace et durable.</p>
         </div>
       </section>
       <section className="min-h-[75vh] bg-primary py-[50px] px-[50px] md:px-[100px] py-[50px] flex items-center" id="blog">
@@ -104,7 +104,7 @@ export default function Home() {
         </div>
         <div className="max-w-[400px] mx-auto md:max-w-[60%] md:mx-0">
           <h2 className="text-4xl">As-tu un projet à développer ?</h2>
-          <p className="text-xl mt-[15px] mb-[30px]">On peut t"aider à donner vie à tes idées. Discutons de ce que nous pouvons construire ensemble pour créer plus d"impact !</p>
+          <p className="text-xl mt-[15px] mb-[30px]">On peut taider à donner vie à tes idées. Discutons de ce que nous pouvons construire ensemble pour créer plus dimpact</p>
           <a href="#contact" className="py-3 px-9 rounded-full border-[1px] border-black bg-black text-white hover:bg-white hover:text-black">Contacter</a>
         </div>
       </section>
