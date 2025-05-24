@@ -3,3 +3,39 @@
 .opacity {
   background: rgba(0,0,0,0.6);
 }
+
+.btn-primary {
+  background: #725ac1;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #fff;
+  color: #725ac1;
+}
+
+.btn-secondary {
+  background: #725ac1;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+.btn-secondary:hover {
+  background: #e2e8dd;
+  color: #725ac1;
+  border-color: #725ac1;
+}
+
+.link {
+  color: #fff;
+  border-bottom: 1px solid transparent;
+}
+
+.link:hover {
+  color: #725ac1;
+  border-color: #725ac1;
+}
+
+.paragraph {
+  margin: 15px 0;
+}

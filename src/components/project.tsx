@@ -1,0 +1,30 @@
+import Image from "next/image";
+
+interface ProjectProps {
+    image: string;
+    name: string;
+    previewContent: string;
+}
+
+export default function Project({ image, name, previewContent }: ProjectProps) {
+    return (
+        <>
+            <div>
+                <a href="">
+                    <Image 
+                        src={image}
+                        alt={name}
+                        width={1800}
+                        height={1080}
+                        sizes="fill" 
+                        className="hover:opacity-90"
+                    />
+                </a >
+                <div className="mt-[10px]">
+                    <h3 className="uppercase text-lg"><a href=""><b>{name}</b></a></h3>
+                    <p>{previewContent}</p>
+                </div>
+            </div>
+        </>
+    )
+}
