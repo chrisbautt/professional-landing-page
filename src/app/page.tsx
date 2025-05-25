@@ -21,7 +21,7 @@ export default function Home() {
           <div className="bg-[rgba(0,0,0,.9)] w-full h-full absolute top-0 left-0"></div>
         </div>
         <div className="max-w-[750px]">
-          <h1 className="text-4xl md:text-5xl leading-tight md:leading-none"><b>Ballet et marketing de projets sociaux et humanitaires</b></h1>
+          <h1 className="text-4xl md:text-5xl leading-tight md:leading-none"><b>Wallet et marketing de projets sociaux et humanitaires</b></h1>
           <h2 className="mt-[10px] mb-[40px] text-lg">Humaid transforme les entités sociales en leaders digitaux</h2>
           <a href="#services" className="btn-primary py-3 px-9 rounded-full text-lg">Découvir comment</a>
         </div>
