@@ -12,13 +12,13 @@ export default function Home() {
       <section className="relative h-screen overflow-hidden text-[#E2E8DD] flex justify-start items-center pt-[100px] px-[25px] md:px-[100px]" id="acuell">
         <div className="absolute w-full h-full bg-[#111111] top-0 left-0 -z-30">
           <Image 
-            src="/bussines-woman.jpg"
+            src="/bussines-woman-size-reduce.jpg"
             alt="background"
             width={7360}
             height={4912}
             className="object-cover w-full h-full"
           />
-          <div className="bg-[rgba(0,0,0,.9)] w-full h-full absolute top-0 left-0"></div>
+          <div className="bg-[rgba(0,0,0,.8)] w-full h-full absolute top-0 left-0"></div>
         </div>
         <div className="max-w-[750px]">
           <h1 className="text-4xl md:text-5xl leading-tight md:leading-none"><b>Wallet et marketing de projets sociaux et humanitaires</b></h1>
@@ -33,18 +33,18 @@ export default function Home() {
             <p className="text-lg">Humaid propose des solutions efficces et personnalisées:</p>
           </div>
           <div className="flex flex-col justify-start items-center my-[50px] gap-[50px] md:flex-row">
-            <div className="flex flex-col justify-center items-start gap-[50px] md:gap-[30px]">
+            <div className="flex flex-col justify-center items-start gap-[50px] md:gap-[25px]">
               <Service image="/estrategia.png" service="Stratégie de marketing digital" description="Audit et création de stratégies de communication efficaces et personnalisées pour atteindre les objectifs et développer les réseaux sociaux." />
               <Service image="/estrategia-de-contenido.png" service="Création de Contenu" description="Rédaction darticles pour les blogs, conception dinfographies et logos, Motion Design et réalisation et montage de vidéos lors de missions humanitaires." />
               <Service image="/seo.svg" service="Optimisation pour les Moteurs de Recherche (SEO)" description="Audit du site web pour identifier les axes damélioration, stratégie de mots-clés et optimisation des contenus pour améliorer le référencement sur Google." />
             </div>
-            <div className="flex flex-col justify-center items-start gap-[50px] md:gap-[30px]">
+            <div className="flex flex-col justify-center items-start gap-[50px] md:gap-[25px]">
               <Service image="/marketing-email.svg" service="Campagnes Publicitaires et Mailing" description="Gestion de la publicité (SEM), mise en œuvre de stratégies d Email Marketing avec un design de newsletter attractif et suivi des résultats." />
               <Service image="/marketing-laptop.svg" service="Analyse des métriques et reporting" description="Fournir des rapports clairs et compréhensibles avec des recommandations d actions spécifiques." />
               <Service image="/online-course.svg" service="Formation et mise à jour continue " description="Accès à du matériel de formation exclusif d Humaid et à des outils de marketing digital pour automatiser les équipes et améliorer l efficience de l organisation à long terme." />
             </div>
           </div>
-          <div className="flex flex-col justify-start items-center gap-[25px] py-[50px] md:flex-row">
+          <div className="flex flex-col justify-start items-center gap-[25px] pt-[50px] md:flex-row">
             <div className="w-full flex justify-center items-center md:justify-end">
               <div className="max-w-[500px] md:max-w-[80%] relative">
                 <Image
@@ -74,7 +74,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-[#E2E8DD] py-[25px] px-[25px] md:px-[100px]" id="a propos">
+      <section className="bg-[#E2E8DD] pt-[100px] pb-[50px] px-[25px] md:px-[100px]" id="a propos">
         <div className="mx-auto flex flex-col justify-center items-start gap-[30px] md:flex-row">
           <div className="w-full">
             <h2 className="text-4xl mb-[25px]">A propos dHumaid</h2>
@@ -135,14 +135,14 @@ export default function Home() {
         <div className="max-w-[400px] mx-auto py-[25px] text-center flex flex-col md:max-w-full md:flex-row md:justify-between md:items-center">
           <div className="flex flex-col justify-center items-center gap-[10px] my-[25px] md:flex-row md:gap-[30px]">
             <p>© Humaid Communication</p>
-            <a href=""><u>ariadna@humaidcommunication.com</u></a>
+            <a href="" className="md:hover:text-white"><u>ariadna@humaidcommunication.com</u></a>
           </div>
           <nav className="flex justify-center items-center gap-[30px]">
             <ul className="">
-              <li><a href=""><u>Terms et conditions</u></a></li>
+              <li><a href="" className="md:hover:text-white"><u>Terms et conditions</u></a></li>
             </ul>
             <ul>
-              <li><a href=""><u>Politique de confidentialté</u></a></li>
+              <li><a href="" className="md:hover:text-white"><u>Politique de confidentialté</u></a></li>
             </ul>
           </nav>
         </div>

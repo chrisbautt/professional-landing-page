@@ -6,17 +6,19 @@
 
 .btn-primary {
   background: #725ac1;
-  color: #fff;
+  color: #e2e8dd;
+  border-bottom: 1px solid transparent;
 }
 
 .btn-primary:hover {
-  background: #fff;
+  background: #e2e8dd;
   color: #725ac1;
+  border-color: #725ac1;
 }
 
 .btn-secondary {
   background: #725ac1;
-  color: #fff;
+  color: #e2e8dd;
   border: 1px solid transparent;
 }
 
