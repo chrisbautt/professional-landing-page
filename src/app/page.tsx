@@ -22,7 +22,7 @@ export default function Home() {
         </div>
         <div className="max-w-[750px]">
           <h1 className="text-4xl md:text-5xl leading-tight md:leading-none"><b>Wallet et marketing de projets sociaux et humanitaires</b></h1>
-          <h2 className="mt-[10px] mb-[40px] text-lg">Humaid transforme les entités sociales en leaders digitaux</h2>
+          <h2 className="mt-[10px] mb-[40px] text-lg text-[#cccccc]">Humaid transforme les entités sociales en leaders digitaux</h2>
           <a href="#services" className="btn-primary py-3 px-9 rounded-full text-lg">Découvir comment</a>
         </div>
       </section>
@@ -32,7 +32,7 @@ export default function Home() {
             <h2 className="text-4xl my-[5px]">Services</h2>
             <p className="text-lg">Humaid propose des solutions efficces et personnalisées:</p>
           </div>
-          <div className="flex flex-col justify-start items-center my-[50px] gap-[50px] md:flex-row">
+          <div className="flex flex-col justify-start items-center my-[50px] gap-[50px] md:flex-row md:justify-center">
             <div className="flex flex-col justify-center items-start gap-[50px] md:gap-[25px]">
               <Service image="/estrategia.png" service="Stratégie de marketing digital" description="Audit et création de stratégies de communication efficaces et personnalisées pour atteindre les objectifs et développer les réseaux sociaux." />
               <Service image="/estrategia-de-contenido.png" service="Création de Contenu" description="Rédaction darticles pour les blogs, conception dinfographies et logos, Motion Design et réalisation et montage de vidéos lors de missions humanitaires." />

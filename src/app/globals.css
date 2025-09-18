@@ -7,25 +7,25 @@
 .btn-primary {
   background: #725ac1;
   color: #e2e8dd;
-  border-bottom: 1px solid transparent;
+  transition: all 0.3s ease;
 }
 
 .btn-primary:hover {
   background: #e2e8dd;
-  color: #725ac1;
-  border-color: #725ac1;
+  color: #000000;
 }
 
 .btn-secondary {
   background: #725ac1;
   color: #e2e8dd;
   border: 1px solid transparent;
+  transition: all 0.3s ease;
 }
 
 .btn-secondary:hover {
-  background: #e2e8dd;
-  color: #725ac1;
-  border-color: #725ac1;
+  background: #000000;
+  color: #e2e8dd;
+  border-color: #000000;
 }
 
 .link {
@@ -34,8 +34,8 @@
 }
 
 .link:hover {
-  color: #725ac1;
-  border-color: #725ac1;
+  color: #8373b8;
+  border-color: #8373b8;
 }
 
 .paragraph {
